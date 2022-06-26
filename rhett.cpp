@@ -1,3 +1,7 @@
+// Copyright 2022 Hailey Fox foxh@bu.edu
+// Copyright 2022 Claire Cropper ccropper@bu.edu
+// Copyright 2022 Antoine Baize baizea@bu.edu 
+// Copyright 2022 Xinyu Lei tllrllsa@bu.edu
 
 #include <SFML/Graphics.hpp>
 #include<SFML/Window.hpp>
@@ -8,9 +12,6 @@
 #include <iostream>
 #include <string>
 
-const float gravity = 1;
-int groundHeight = 440;
-sf::Vector2f velocity(sf::Vector2f(0,0));
 
 int main()
 {
@@ -34,7 +35,7 @@ int main()
     popup.setPosition(25,25);
     popup.setFillColor(sf::Color::Red);
     startscreen.setFillColor(sf::Color(255,255,255,200));
-    sf::Font font;  // creates text for digital clock
+    sf::Font font; 
     sf::Text words;
     sf::Text linetwo;
     sf::Text linethree;
@@ -116,9 +117,7 @@ int main()
                 linefour.setFillColor(sf::Color(255,255,255,0));
                 
             }
-                // window.draw(popuptwo);
-                // window.draw(popupthree);
-                //press spacebar to restart
+            
 
       
         
@@ -126,12 +125,8 @@ int main()
 
         }
 
-            // if rhett runs into obstacle
-        // window.draw(popup);
-          // window.draw(popupone);     
-          //   window.draw(popuptwo);
-          //   window.draw(popupthree);
-          //   window.display();}
+
+ 
 
 if (sf::Keyboard::isKeyPressed(sf::Keyboard::Escape))
     window.close();
