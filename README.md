@@ -1,3 +1,8 @@
 # Running-Rhett
 
-Our application, Running Rhett, targets Boston University students and faculty alike who want to play a game that is both simple to understand, and easy to play. Running Rhett is a game that is best played when you have time to kill, as it requires your full attention and provides stimulus that helps ease boredom. It’s a game that you can’t play just once, as it tracks the highest score reached, which urges the player to play multiple rounds so as to beat the previous high score. Our game is similar to Google Dino Run, also known as T-Rex Runner, which is displayed on Google Chrome when you lose access to the internet. Ours is Boston University themed, however, where you play as Rhett running down Commonwealth Avenue. Your score is determined by how far you travel, and it updates as you move. The goal is to avoid running into the birds and bus stop signs that you run by, trying to make it as far as possible. 
+
+The player begins by pressing a button on the keyboard. Either the escape button to exit the program, or another random key to
+begin the program. The player then either lets the program run, or presses the spacebar. Letting the program run without 
+interacting will accumulate a score until the program stops. The player then has the option of restarting, or quitting the game 
+altogether. If the player chooses to press the spacebar, thus playing the game, they will accumulate a score until the program 
+stops. The player then has the option to restart the game, or to quit.
